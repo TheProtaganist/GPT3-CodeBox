@@ -27,18 +27,18 @@ see how the model responds to different outcomes choose this option.
 
 # Paramters used
 
-1.	prompt: A string or an array of the prompt text
+1.	prompt: The intention you wish to give the model and it will generate a code once you've entered all the values correctly
 
-2.	max_tokens: An integer that sets the max tokens to generate
+2.	max_tokens: The max tokens (words) you wish to generate (keep between 10 and 650)
 
-3.	top_p: A number called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So, 0.1 means only the tokens comprising the top 10% probability mass are considered. 
+3.	top_p: A number called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So, 0.5 means only the tokens comprising the top 50% probability mass are considered. 
 
-4.	logprobs: An integer that tells the API to include log probabilities on the most likely tokens and chosen tokens.
+4.	logprobs: An value that tells the API to include log probabilities on the most likely tokens and chosen tokens.
 
 5.	echo: A boolean value that tells the API to echo back the prompt along with the completion
 
 6.	presence penalty: A number between 0 and 1 (default 0) that penalizes new tokens based on whether they appear in the text so far. This increases the model's likelihood to talk about new topics.
 
-7.	frequency penalty: A number between 0 and 1 (default 0) that penalizes new tokens based on their existing frequency in the text so far. This decreases the model's likelihood to repeat the same line verbatim.
+7.	frequency penalty: A number between 0 and 1 (default 0) that penalizes new tokens based on their existing frequency in the text so far. This decreases the model's likelihood to repeat the same line verbatim. NOTE: highly recommend but keep between 0 and 1
 
-8.	best_of: An integer that tells the API to only return the "best" of n completions (the one with the lowest log probability per token). If provided, must be greater than n. 
+8.	best_of: An integer that tells the API to only return the "best" of n completions (the one with the lowest log probability per token). 
