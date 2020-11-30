@@ -45,4 +45,5 @@ see how the model responds to different outcomes choose this option.
 
 # Install needed modules
 pip install -r requirements.txt
+
 if tkinter not installed run command prompt and pip install tk
