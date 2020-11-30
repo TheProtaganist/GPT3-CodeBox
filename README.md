@@ -43,5 +43,6 @@ see how the model responds to different outcomes choose this option.
 
 8.	best_of: An integer that tells the API to only return the "best" of n completions (the one with the lowest log probability per token). 
 
-# Usage
+# Install needed modules
 pip install -r requirements.txt
+if tkinter not installed run command prompt and pip install tk
