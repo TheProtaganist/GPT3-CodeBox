@@ -4,15 +4,6 @@ To use is pretty straight foward simply download the main_application
 folder and run the one of the 3 py flies and make sure to provide a open ai api key
 you can get at https://beta.openai.com. The app won't work without a key.
 
-
-
-
-
-
-
-
-
-
 # Code Box Generator 
 This is the most basic out of the 3 to use simply enter a prompt 
 and make sure the values entered for frequency penalty, presence penalty
@@ -22,15 +13,11 @@ parameters I would recommend to play around with but keep the values low.
 You also get the option to echo back the completion if a even number is entered
 for the echo section.
 
-
-
 # Code Box Chaos
 This is a special tool becuase it uses the butterfly effect
 also known as "Chaos" when processing the values. Every value entered will
 be affected by every other value although log probality, tokens, best of, and 
 the prompt remain the same.
-
-
 
 # Code Box
 This is the same as the previous one except the values are now
