@@ -47,7 +47,9 @@ see how the model responds to different outcomes choose this option.
 # Install needed modules
 pip install -r requirements.txt
 
-if tkinter not installed run command prompt and pip install tk
+or you can just open the requirements.txt and install each module one by one.
+
+if tkinter not installed run command prompt and pip install tk (comes installed by defualt)
 
 When generating files in the main_application is normal for the program to freeze. DO NOT EXIT UNLESS THE PROGRAM GAVE YOU A RESULT OR ERROR!!!
 
