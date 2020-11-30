@@ -42,3 +42,6 @@ see how the model responds to different outcomes choose this option.
 7.	frequency penalty: A number between 0 and 1 (default 0) that penalizes new tokens based on their existing frequency in the text so far. This decreases the model's likelihood to repeat the same line verbatim. NOTE: highly recommend but keep between 0 and 1
 
 8.	best_of: An integer that tells the API to only return the "best" of n completions (the one with the lowest log probability per token). 
+
+# Usage
+pip install -r requirements.txt
