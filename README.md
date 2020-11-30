@@ -11,7 +11,8 @@ and top probability are below 1. Tokens have to be at least less then 650
 otherwise the model will return an error. For log probability and best of 
 parameters I would recommend to play around with but keep the values low.
 You also get the option to echo back the completion if a even number is entered
-for the echo section.
+for the echo section although I recommend entering a odd number since 
+it will avoid errors later on but the file will still generated even if some errors happen.
 
 # Code Box Chaos
 This is a special tool becuase it uses the butterfly effect
@@ -47,3 +48,7 @@ see how the model responds to different outcomes choose this option.
 pip install -r requirements.txt
 
 if tkinter not installed run command prompt and pip install tk
+
+When generating files in the main_application is normal for the program to freeze. DO NOT EXIT UNLESS THE PROGRAM GAVE YOU A RESULT OR ERROR!!!
+
+If all fails try using the code_box.py and set values as low as you can...
