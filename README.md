@@ -6,6 +6,13 @@ you can get at https://beta.openai.com. The app won't work without a key.
 
 
 
+
+
+
+
+
+
+
 # Code Box Generator 
 This is the most basic out of the 3 to use simply enter a prompt 
 and make sure the values entered for frequency penalty, presence penalty
