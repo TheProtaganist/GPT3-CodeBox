@@ -25,7 +25,7 @@ made smaller which leads to less errors. If you want to enter custom values
 just use the Code Box generator otherwise if you want to mess with chaos and
 see how the model responds to different outcomes choose this option.
 
-# Paramters used
+# Parameters used
 
 1.	prompt: The intention you wish to give the model and it will generate a code once you've entered all the values correctly
 
