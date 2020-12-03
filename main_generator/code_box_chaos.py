@@ -747,7 +747,7 @@ def user_input(x, y, z):
                         print(check_one, check_two, check_three)
                         code_description2 = Label(canvas, text=algo_for_you_alternative + ("\n" * 3) + "'py'file generated in application directory", font=("Times New Roman", 10, "italic"), bg="white", fg="black", justify=LEFT)
                         code_description2.place(relwidth=0.39, relheight=0.819, x=293, y=140)
-                        messagebox.showinfo("To much tokens bro!", "Why don't you enter a big number? of tokens next times?")
+                        messagebox.showinfo("To much tokens bro!", "Why don't you enter a bigger number of tokens next time ;)")
                     except openai.error.InvalidRequestError:
                         messagebox.showinfo("Looks like this is more than the api can handle...","Woah there! Values are too big :0")
             except IndexError:
