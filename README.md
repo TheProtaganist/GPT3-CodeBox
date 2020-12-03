@@ -51,6 +51,6 @@ or you can just open the requirements.txt and install each module one by one.
 
 if tkinter not installed run command prompt and pip install tk (comes installed by defualt)
 
-When generating files in the main_application is normal for the program to freeze. DO NOT EXIT UNLESS THE PROGRAM GAVE YOU A RESULT OR ERROR!!!
+When generating files in the main_application is normal for the program to freeze. DO NOT EXIT UNLESS THE PROGRAM GAVE YOU A RESULT OR ERROR!!! Note: ALL values most be entered or it will crash.
 
 If all fails try using the code_box.py and set values as low as you can...
